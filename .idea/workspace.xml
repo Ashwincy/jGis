@@ -26,19 +26,19 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="jgis.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jgis.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/javascripts/jgis.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="217" column="18" selection-start="6609" selection-end="6609" vertical-scroll-proportion="0.0" vertical-offset="3188" max-vertical-offset="4318">
+            <state line="161" column="2" selection-start="4929" selection-end="4929" vertical-scroll-proportion="0.27027026" vertical-offset="2567" max-vertical-offset="4318">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jade" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.jade" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/index.jade">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="20" selection-start="1318" selection-end="1360" vertical-scroll-proportion="0.53424656" vertical-offset="106" max-vertical-offset="697">
+            <state line="22" column="13" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
               <folding />
             </state>
           </provider>
@@ -56,7 +56,7 @@
       <file leaf-file-name="jgis.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/stylesheets/jgis.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="1" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="64" max-vertical-offset="527">
+            <state line="20" column="1" selection-start="263" selection-end="263" vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="527">
               <folding />
             </state>
           </provider>
@@ -276,14 +276,6 @@
     </key>
   </component>
   <component name="RunManager" selected="Node.js.app.js">
-    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -294,15 +286,23 @@
       <option name="showConsoleOnStdOut" value="false" />
       <method />
     </configuration>
+    <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
+      <option name="VMOptions" />
+      <option name="arguments" />
+      <option name="filePath" />
+      <option name="scope" value="ALL" />
+      <option name="testName" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
+      <envs />
+      <method />
+    </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
       <setting name="preferredDebugBrowser" value="CHROME" />
-      <method />
-    </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
@@ -343,7 +343,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="776" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="776" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -354,15 +354,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2078125" sideWeight="0.19038077" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26796407" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26796407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26796407" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291866" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -499,9 +499,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/jquery-1.11.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="6" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="175831">
-          <folding />
-        </state>
+        <state line="75" column="6" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="175831" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/jgis.js">
@@ -545,9 +543,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/jquery-1.11.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="75" column="6" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="175831">
-          <folding />
-        </state>
+        <state line="75" column="6" selection-start="2005" selection-end="2005" vertical-scroll-proportion="0.0" vertical-offset="612" max-vertical-offset="175831" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -557,9 +553,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/javascripts/jquery-1.11.0.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2712" column="7" selection-start="73988" selection-end="73992" vertical-scroll-proportion="15.12" vertical-offset="46278" max-vertical-offset="175627">
-          <folding />
-        </state>
+        <state line="2712" column="7" selection-start="73988" selection-end="73992" vertical-scroll-proportion="15.12" vertical-offset="46278" max-vertical-offset="175627" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/x3d/Palatin_Phase13_Modern.x3d">
@@ -665,16 +659,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/javascripts/jgis.js">
+    <entry file="file://$PROJECT_DIR$/views/index.jade">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="217" column="18" selection-start="6609" selection-end="6609" vertical-scroll-proportion="0.0" vertical-offset="3188" max-vertical-offset="4318">
+        <state line="22" column="13" selection-start="1392" selection-end="1392" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/index.jade">
+    <entry file="file://$PROJECT_DIR$/public/javascripts/jgis.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="20" selection-start="1318" selection-end="1360" vertical-scroll-proportion="0.53424656" vertical-offset="106" max-vertical-offset="697">
+        <state line="161" column="2" selection-start="4929" selection-end="4929" vertical-scroll-proportion="0.27027026" vertical-offset="2567" max-vertical-offset="4318">
           <folding />
         </state>
       </provider>
