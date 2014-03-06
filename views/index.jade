@@ -17,59 +17,20 @@ html
                     jGis.getGis3DWidget().addLayer("Flavisch 2", "/x3d/Palatin_Phase04_Flavisch2.x3d");
                     jGis.getGis3DWidget().addLayer("Flavisch 3", "/x3d/Palatin_Phase05_Flavisch3.x3d");
                     jGis.getGis3DWidget().addLayer("Phase 7", "/x3d/Palatin_Phase07_Anfang2Jh.x3d");
-
                     jGis.getGis3DWidget().showLayerWidget();
+                    jGis.getGis3DWidget().showToolbarWidget();
                 }
             }
-
-            $(function() {
-                $("#nav_mode").buttonset();
-                $("button").button().click(function( event ) {
-                    event.preventDefault();
-                    if(jGis.getGis3DWidget) {
-                         jGis.getGis3DWidget().showAll();
-                    }
-                });
-
-            });
-
-            function setNavigationMode(navigationMode) {
-                 if(jGis.getGis3DWidget) {
-                    // set the navigation mode on the first gis3d canvas!
-                     jGis.getGis3DWidget().setNavigationMode(navigationMode);
-                 }
-             }
-        style.
-            #toolbar_widget {
-                padding: 4px;
-                width: 800px;
-                margin: 10px;
-                float: left;
-            }
-
 
     body
     block content
         h1 Welcome to #{title}
-
-        // TODO: use a jquery ui toolbar!
-        div#toolbar_widget(class="ui-widget-header ui-corner-all")
-            button Show All
-            span#nav_mode
-                input(type="radio" name="nav_mode" id="examine" onclick='setNavigationMode("examine")' checked="checked")
-                label(for="examine") Examine
-                input(type="radio" name="nav_mode" id="fly" onclick='setNavigationMode("fly")')
-                label(for="fly") Fly
-                input(type="radio" name="nav_mode" id="game" onclick='setNavigationMode("game")')
-                label(for="game") Game
-                input(type="radio" name="nav_mode" id="helicopter" onclick='setNavigationMode("helicopter")')
-                label(for="helicopter") Helicopter
-                input(type="radio" name="nav_mode" id="lookAt" onclick='setNavigationMode("lookAt")')
-                label(for="lookAt") LookAt
-                input(type="radio" name="nav_mode" id="lookAround" onclick='setNavigationMode("lookAround")')
-                label(for="lookAround") LookAround
-                input(type="radio" name="nav_mode" id="walk" onclick='setNavigationMode("walk")')
-                label(for="walk") Walk
-
+        label Canvas Width
+        <input type = "text" id="CanvasWidth"/>
+        br
+        label Canvas Height
+        <input type = "text" id="CanvasHeight"/>
+        br
+        <input type = "button" value="Set Values" onclick="setCanvasSize()" id="setValues"/>
+        <input type = "button" value="Set Defalut Size" onclick="setDefaultCanvasSize()" id="setDefault"/>
         gis3d
-

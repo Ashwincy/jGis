@@ -9,11 +9,18 @@ a {
 
 .gis3d_widget {
     float: left;
-    width: 1000px;
+    width: 100%;
     margin: 10px;
 }
 
 .gis3d_layer_widget {
     overflow: hidden;
     border: 10px solid #ffffff;
+}
+
+.gis3d_toolbar_widget {
+    padding: 4px;
+    margin-bottom: 10px;
+    float: left;
+
 }
